@@ -3,4 +3,14 @@
   display: flex;
   justify-content: space-between;
   margin: 30px auto;
+  flex-direction: row;
+}
+
+
+@media(max-width:600px){
+  .sign-in-and-sign-up{
+    flex-direction:column;
+    width: 100%;
+
+  }
 }
